@@ -1,0 +1,42 @@
+{
+  "name": "ScrollPack 插件仓库",
+  "description": "ScrollPack 在线插件源 — 轻小说/漫画多源打包下载工具",
+  "plugins": [
+    {
+      "id": "bili_novel",
+      "name": "哔哩轻小说",
+      "version": "1.0.0",
+      "type": "novel",
+      "download": "plugins/bili_novel.zip",
+      "description": "BiliBili 轻小说源，支持反混淆解密",
+      "author": "ScrollPack"
+    },
+    {
+      "id": "wenku_novel",
+      "name": "轻小说文库",
+      "version": "1.0.0",
+      "type": "novel",
+      "download": "plugins/wenku_novel.zip",
+      "description": "Wenku8 轻小说文库源，GBK编码支持",
+      "author": "ScrollPack"
+    },
+    {
+      "id": "copy_manga",
+      "name": "拷贝漫画",
+      "version": "1.0.0",
+      "type": "manga",
+      "download": "plugins/copy_manga.zip",
+      "description": "拷贝漫画源，contentKey解密，Playwright渲染",
+      "author": "ScrollPack"
+    },
+    {
+      "id": "baozi_manga",
+      "name": "包子漫画",
+      "version": "1.0.0",
+      "type": "manga",
+      "download": "plugins/baozi_manga.zip",
+      "description": "包子漫画源，Playwright滚动加载",
+      "author": "ScrollPack"
+    }
+  ]
+}
