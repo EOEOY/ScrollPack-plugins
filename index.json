@@ -37,6 +37,15 @@
       "download": "plugins/baozi_manga.zip",
       "description": "日漫/国漫阅读平台",
       "author": "ScrollPack"
+    },
+    {
+      "id": "mangabz_manga",
+      "name": "Mangabz漫画",
+      "version": "1.0.0",
+      "type": "manga",
+      "download": "plugins/mangabz_manga.zip",
+      "description": "日本漫画在线阅读平台",
+      "author": "ScrollPack"
     }
   ]
 }
