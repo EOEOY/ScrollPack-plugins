@@ -8,7 +8,7 @@
       "version": "1.0.0",
       "type": "novel",
       "download": "plugins/bili_novel.zip",
-      "description": "BiliBili 轻小说源，支持反混淆解密",
+      "description": "B站官方轻小说频道",
       "author": "ScrollPack"
     },
     {
@@ -17,7 +17,7 @@
       "version": "1.0.0",
       "type": "novel",
       "download": "plugins/wenku_novel.zip",
-      "description": "Wenku8 轻小说文库源，GBK编码支持",
+      "description": "Wenku8 轻小说文库",
       "author": "ScrollPack"
     },
     {
@@ -26,7 +26,7 @@
       "version": "1.0.0",
       "type": "manga",
       "download": "plugins/copy_manga.zip",
-      "description": "拷贝漫画源，contentKey解密，Playwright渲染",
+      "description": "国产漫画平台",
       "author": "ScrollPack"
     },
     {
@@ -35,7 +35,7 @@
       "version": "1.0.0",
       "type": "manga",
       "download": "plugins/baozi_manga.zip",
-      "description": "包子漫画源，Playwright滚动加载",
+      "description": "日漫/国漫阅读平台",
       "author": "ScrollPack"
     }
   ]

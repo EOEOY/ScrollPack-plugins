@@ -1,7 +1,3 @@
-*.py
-!scripts/build.py
-*.pyc
-__pycache__/
-.DS_Store
-
 *.bat
+*.py
+__pycache__/
