@@ -1,0 +1,8 @@
+{
+  "name": "示例漫画源",
+  "id": "example_manga",
+  "version": "1.0.0",
+  "type": "manga",
+  "module": "source",
+  "class": "ExampleMangaSource"
+}

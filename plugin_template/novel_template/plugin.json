@@ -1,0 +1,8 @@
+{
+  "name": "示例小说源",
+  "id": "example_novel",
+  "version": "1.0.0",
+  "type": "novel",
+  "module": "source",
+  "class": "ExampleNovelSource"
+}
