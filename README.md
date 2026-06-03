@@ -10,23 +10,20 @@ https://raw.githubusercontent.com/EOEOY/ScrollPack-plugins/master
 
 ## 开发
 
-1. 参考 `plugin_template` 目录结构
-2. 继承 `BrowserSource`（漫画）或 `LightNovelSource`（小说）
-3. 实现 `get_novel` / `get_novel_catalog` / `get_image` / `fetch_chapter_images`
-4. 打包为 `{plugin_id}.zip`，内部包含 `plugin_id/plugin.json` + `plugin_id/__init__.py` + `plugin_id/source.py`
+详细教程见 [`plugin_template/README.md`](plugin_template/README.md)。
 
-### plugin.json
+快速步骤：
 
-```json
-{
-  "name": "显示名",
-  "id": "唯一标?",
-  "version": "1.0.0",
-  "type": "manga",
-  "module": "source",
-  "class": "YourClassName"
-}
-```
+1. 复制 `plugin_template/novel_template/`（小说）或 `plugin_template/manga_template/`（漫画）
+2. 修改 `plugin.json` 和 `source.py`
+3. 测试通过后打包为 `{plugin_id}.zip`，内部结构：
+   ```
+   {plugin_id}/
+   ├── plugin.json
+   ├── __init__.py      # 空文件
+   └── source.py
+   ```
+4. 放入 `plugins/`，注册到 `index.json`，提 PR
 
 ## 致谢
 
